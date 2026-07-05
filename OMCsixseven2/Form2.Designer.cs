@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -40,19 +43,53 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(290, 326);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(510, 197);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 2;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(149, 193);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 3;
+            label1.Text = "label1";
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form2";
             Text = "Form2";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label1;
     }
 }
